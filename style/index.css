@@ -1,1 +1,74 @@
 /* CSS stillerinizi buraya girin */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  padding: 1em;
+  background-color: rgb(169, 182, 209);
+  text-decoration: none;
+  color: black;
+}
+main {
+  width: 80vw;
+  height: 50vw;
+  background-image: url(https://picsum.photos/800/600);
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main a {
+  padding: 1em;
+  text-decoration: none;
+  background-color: white;
+  display: block;
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+main h1 {
+  text-shadow: 1px 1px darkblue;
+}
+.container-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
+.container-gallery div {
+  width: 30%;
+}
+.container-gallery img {
+  width: 100%;
+}
+.container-gallery h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+footer {
+  background-color: #c7b7b785;
+  width: 100%;
+}
+footer a {
+  padding: 1em;
+  text-decoration: none;
+  background-color: rgb(31, 173, 173);
+  display: block;
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  color: black;
+}
